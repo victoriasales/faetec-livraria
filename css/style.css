@@ -1,0 +1,119 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+    background-color: #ffffff;
+    font-family: arial;
+}
+
+.margin-left-none{
+	margin-left: 0 !important;
+}
+
+.clr{
+	clear: both;
+}
+
+.goiaba{
+	white-space: nowrap;
+
+}
+
+/* Comentários !*/
+#topo{
+    background-color: #e60014;
+    height: 116px;
+    margin-top: 35px;
+    color: #ffffff;
+}
+
+#topo h1{
+   font-weight: normal;
+    margin-left: 40px;
+    padding-top: 10px;
+}
+
+#topo ul{
+	margin: 15px;
+}
+
+#topo ul#menu li{
+	display: inline;
+	font-size: 21px;
+	font-style: italic;
+	font-weight: bold;
+	left: 19px;
+	position: relative;
+	top: 26px;
+}
+
+#topo ul#menu li span{
+	margin: 0 16px;
+}
+
+div#lista-img{
+	margin: 27px auto;
+    padding: 15px;
+}
+
+div#lista-img div.img-item{
+    border: 1px solid;
+    height: 178px;
+    width: 211px;
+    padding-left: 15px;
+}
+
+div#lista-img div.img-item img{
+	float: left;
+    margin: 16px 10px 0 0;
+}
+
+div#lista-img div.img-item h2{
+	font-size: 14px;
+    font-weight: normal;
+    height: 52px;
+    margin: 14px 12px 0 0;
+ 	
+}
+
+div#lista-img div.img-item a.botao{
+	background-image: url("../img/botao.png");
+    background-repeat: no-repeat;
+    display: inline-table;
+    height: 33px;
+    margin-top: 50px;
+    width: 93px;
+}
+
+div#lista-img div.img-item a.botao span{
+	display: none;
+}
+
+div#lista-img div.img-item{
+
+	float: left;
+	margin-left: 54px;
+	margin-bottom: 40px;
+}
+#rodape{
+    background-color: #e60014;
+    height: 116px;
+    margin-top: 35px;
+    color: #ffffff;
+}
+#rodape #creditos{
+	height: 90px;
+    margin: 42px auto;
+    padding-top: 24px;
+    text-align: center;
+    width: 300px;
+
+}
+
+div#rodape div#creditos ul#lista li{
+	list-style-type: none;
+}
+
+
+
